@@ -1,0 +1,174 @@
+/**************** Navigation CSS ************/
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.cont-main {
+  position: relative;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100vh;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.ul-leftnav {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+#sidenav {
+  background-color: black;
+  display: none;
+  max-width: 20%;
+  position: relative;
+  left: 0px;
+  top: 5px;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: 99999;
+}
+
+#sidenav li {
+  display: grid;
+  padding-bottom: 25px;
+}
+
+#sidenav a,
+.fas {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+nav .fa-bars {
+  color: black;
+  font-size: 25px;
+  top: -4px;
+  position: relative;
+  cursor: pointer;
+  left: 5px;
+  z-index: 99999;
+}
+
+#sidenav .fa-window-close {
+  position: relative;
+  top: 0px;
+  right: 5px;
+  float: right;
+}
+
+.navtower {
+  padding: 20px;
+}
+
+.alternate-logo {
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  top: 14px;
+  left: 45%;
+}
+
+.alternate-logo a {
+  color: black;
+  text-decoration: none;
+}
+
+#profileIcon {
+  position: absolute;
+  float: right;
+  top: 18px;
+  right: 15px;
+}
+
+#profileIcon .fa-user-circle {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#profileIcon button {
+  background-color: transparent;
+  border: none;
+}
+
+/**************** Footer CSS **************/
+
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.pagenav {
+  width: 100%;
+  text-align: center;
+  left: -30px;
+  position: relative;
+  display: none;
+}
+
+.pagenav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.pagenav a {
+  color: lightgray;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.pagenav a:active {
+  text-decoration: underline;
+}
+
+#copyright {
+  position: relative;
+  top: 5px;
+  color: black;
+  text-align: center;
+}
+
+/***************** Main CSS **************/
+
+.calendarscreen {
+  position: absolute;
+  width: 98%;
+  height: 100vh;
+  top: 7%;
+  z-index: 99;
+}
+
+.ui-datepicker {
+  width: 100% !important;
+  height: 90% !important;
+}
+
+.ui-state-default {
+  padding: 25px !important;
+}
+
+.ui-datepicker td {
+  padding: 25px !important;
+}
